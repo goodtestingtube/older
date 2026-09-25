@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+/* add local font later */
+
+html {
+	background: #fff;
+	color: #000;
+	font-family: Archivo, Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+header {
+	font-weight: 900;
+	font-size: 48px;
+}
+
+
+.home { 
+	font-size: 48px;
+	font-weight: 900;
+	color: #ccc;
+}
+
+.home a:link, .home a:visited {
+	font-weight: 700;
+	transition: font-weight 120ms;
+	color: #666;
+}
+
+nav {
+	font-size: 24px;
+	color: #ccc;
+	font-weight: 700;
+}
+
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+	color: #666;
+	transition: font-weight 120ms;
+	font-weight: 400;
+}
+nav a:hover, .home a:hover {
+	color: #ccc;
+	font-weight: 200;
+}
+nav a:active, .home a:active {
+	color: #333;
+}
+
+.home a:hover {
+	font-weight: 400;
+}
+
+.unimportant {
+	font-weight: 300;
+	font-size: 18px;
+}
+.even_more_unimportant {
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.container {
+	width: 100%;
+	max-width: 550px;
+}
+
+.na_kicker {
+	color: #ccc;
+	text-decoration: line-through;
+}
+
+pre {
+	font-family: monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background: #333;
+		color: #fff;
+	}
+	a:link {
+		color: #0ff;
+	}
+	a:visited {
+		color: #0cc;
+	}
+	a:active {
+		color: #f00;
+	}
+	hr {
+		color: #fff;
+	}
+}
+
+b {
+	font-weight: bold;
+}
+
+hr {
+	color: #000;
+}
